@@ -1,0 +1,83 @@
+.usePage-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.usePage > h3 {
+  font-size: 18px;
+  padding-left: 70px;
+  padding-bottom: 50px;
+}
+.usePage-row-image > img {
+  height: 350px;
+  width: 190px;
+  padding-right: 25px;
+}
+.usePage-row {
+  padding-left: 70px;
+  display: flex;
+  align-self: center;
+  width: 40%;
+}
+.usePage-row-text {
+  line-height: 1.5;
+}
+.usePage-row-text > p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.usePage-row-text > h3 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.question > h1 {
+  text-align: center;
+  color: #11163a;
+  padding-bottom: 10px;
+}
+.question-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.space {
+  padding: 10px 0;
+}
+#outlined-multiline-static,
+#outlined-basic {
+  width: 250px;
+}
+.question-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.question-button > Button {
+  background-color: #212121;
+  color: #fff;
+  font-weight: 600;
+}
+.question-button > Button:hover {
+  background-color: #212121;
+}
+.tally > img {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+}
+.tally > span {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tally {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}

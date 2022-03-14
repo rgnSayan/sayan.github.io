@@ -1,0 +1,33 @@
+.navbar {
+  background-color: transparent;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-right > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: 200;
+}
+
+li {
+  padding: 0 15px;
+  cursor: pointer;
+}
+.navbar-left > .MuiSvgIcon-root {
+  padding-right: 5px;
+  font-size: 15px;
+}
