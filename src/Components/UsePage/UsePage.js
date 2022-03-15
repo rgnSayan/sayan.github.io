@@ -1,18 +1,18 @@
 import React from "react";
 import "./UsePage.css";
-import image1 from "./../../assets/image1.jpg";
-import image2 from "./../../assets/image2.jpg";
+import image1 from "./../../assets/image1.jpeg";
+import image2 from "./../../assets/image2.jpeg";
 import image3 from "./../../assets/image3.jpeg";
 import image4 from "./../../assets/image4.jpeg";
 import StarRating from "../Star/StarRating";
 import TextField from "@mui/material/TextField";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Button from "@mui/material/Button";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 function UsePage() {
   return (
     <div className="usePage">
-      <h3>how to use zomato</h3>
       <div className="usePage-container">
         <div className="usePage-row">
           <div className="usePage-row-image">
@@ -69,6 +69,20 @@ function UsePage() {
           </div>
         </div>
       </div>
+      <div className="banner">
+        <div className="banner-container">
+          <h1>What are you waiting for?</h1>
+          <Button
+            type="button"
+            className="banner-button"
+            endIcon={<ChevronRightIcon />}
+            variant="outlined"
+          >
+            Experience it now
+          </Button>
+        </div>
+      </div>
+
       <div className="question">
         <h1>What do you think of this idea?</h1>
         <StarRating />

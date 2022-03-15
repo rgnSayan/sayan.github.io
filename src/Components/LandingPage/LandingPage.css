@@ -6,17 +6,19 @@
   margin-bottom: 30px;
 }
 
-.landingPage-body-img > img {
-  width: 250px;
-  height: 50px;
-}
-.landingPage-body-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 50px;
+.landingPage-body-title {
+  padding-top: 3%;
   padding-bottom: 30px;
+  padding-left: 28%;
+  padding-right: 28%;
 }
+
+.landingPage-body-title > h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 4em;
+}
+
 .landingPage-body-text > h4 {
   text-align: center;
   color: white;
@@ -34,8 +36,9 @@
 .landingPage-button > Button {
   background-color: #ef4f5f;
   color: #fff;
+  padding: 15px 50px;
 }
+
 .landingPage-button > Button:hover {
   background-color: #f05f6d;
 }
-

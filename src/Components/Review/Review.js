@@ -17,7 +17,7 @@ function Review() {
         <div className="review-row color-card">
           <div className="color-card-image">
             <img
-              src="https://cdn.dorik.com/617f9bb6603724001149be1f/617f9bdf603724001149be21/images/42b383d8-945c-423d-a412-6ab696a027c5_1l8hs3d4.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0g5rjZL3HHvRUeh8Kgv8vogUSYhDPp6h8Qw&usqp=CAU"
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ function Review() {
         <div className="review-row color-card">
           <div className="color-card-image">
             <img
-              src="https://cdn.dorik.com/617f9bb6603724001149be1f/617f9bdf603724001149be21/images/67d851c0-2249-44ae-9c7b-595167c345c8_zbfxmhi6.jpg"
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
               alt=""
             />
           </div>
@@ -58,7 +58,7 @@ function Review() {
         <div className="review-row color-card">
           <div className="color-card-image">
             <img
-              src="https://cdn.dorik.com/617f9bb6603724001149be1f/617f9bdf603724001149be21/images/236e1e41-fbb4-47f9-9fb9-31f5a220bd56_zfbt49f1.jpg"
+              src="https://media-exp1.licdn.com/dms/image/C4E03AQHEPW5igV-AAg/profile-displayphoto-shrink_200_200/0/1530401753378?e=1652313600&v=beta&t=IXULfXMTODmLS8J1jDg-H6Zer30y7et4sFFK7gg6kPE"
               alt=""
             />
           </div>
@@ -68,7 +68,7 @@ function Review() {
           </p>
           <div className="review-name">
             <span>
-              <strong>Rishav Raj</strong>
+              <strong>Rashi Raj</strong>
             </span>
             <span>Zomato user, Bangalore</span>
           </div>

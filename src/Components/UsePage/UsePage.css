@@ -1,13 +1,10 @@
 .usePage-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-bottom: 50px;
 }
-.usePage > h3 {
-  font-size: 18px;
-  padding-left: 70px;
-  padding-bottom: 50px;
-}
+
 .usePage-row-image > img {
   height: 350px;
   width: 190px;
@@ -17,8 +14,9 @@
   padding-left: 70px;
   display: flex;
   align-self: center;
-  width: 40%;
+  width: 35%;
 }
+
 .usePage-row-text {
   line-height: 1.5;
 }
@@ -31,7 +29,9 @@
   text-align: center;
   padding-top: 30px;
 }
-
+.question {
+  padding: 20px 0;
+}
 .question > h1 {
   text-align: center;
   color: #11163a;
@@ -51,19 +51,20 @@
 #outlined-basic {
   width: 250px;
 }
+
 .question-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-.question-button > Button {
+.question-button > button {
   background-color: #212121;
   color: #fff;
   font-weight: 600;
 }
-.question-button > Button:hover {
+.question-button > button:hover {
   background-color: #212121;
 }
 .tally > img {
@@ -80,4 +81,38 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ef4f5f;
+  height: 100px;
+  margin: 0 10%;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.banner {
+  background-color: #f3e6e7;
+  height: 160px;
+  padding-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.banner-container > h1 {
+  font-size: 30px;
+  padding-right: 50px;
+  color: #fff;
+}
+
+.banner-container > button {
+  background-color: #fff;
+  color: #212121;
+  font-size: 16px;
+}
+.banner-container > button:hover {
+  background-color: #fff;
+  color: #ef4f5f;
 }
