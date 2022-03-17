@@ -5,4 +5,5 @@ const firebaseConfig = {
   storageBucket: "react-landing-page-ed42b.appspot.com",
   messagingSenderId: "439921487796",
   appId: "1:439921487796:web:a26a6d3bc324c45e45cce1",
+  measurementId: "G-9XTTFDDGX6"
 };

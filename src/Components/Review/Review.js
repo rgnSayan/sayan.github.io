@@ -10,7 +10,7 @@ function Review() {
           <h1>Here's what the early birds had to say 📢</h1>
           <p>
             Every opinion matters and we take our customers seriously. If you
-            have anything to add, or just want to talk about slice, do contact
+            have anything to add, or just want to talk about zomato, do contact
             us asap.
           </p>
         </div>
@@ -22,14 +22,15 @@ function Review() {
             />
           </div>
           <p>
-            It's a great idea, something very novel and unheard of before. Slice
-            should incorporate this.
+            I am someone who is looking for better service everyday and I came
+            across this idea of tiffin service on zomato. I love the idea
+            because it’s great to finally fix our food routine with this
           </p>
           <div className="review-name">
             <span>
               <strong>Vishal Khedkar</strong>
             </span>
-            <span>slice user, Mumbai</span>
+            <span>Zomato user, Mumbai</span>
           </div>
         </div>
       </div>
@@ -42,11 +43,11 @@ function Review() {
             />
           </div>
           <p>
-            A lot of people lend their credit limits independently, sometimes
-            since their friends don't have access to funds, or for bank/shopping
-            offers. By integrating this into the app, credibility can be
-            introduced into the system, and I think this is a great idea Tarang
-            Girish
+            I moved to Bangalore 2 months back after working from home from last
+            year. When I came out to stay on my own the most important thing
+            that I couldn’t manage was FOOD. With this model in place I can take
+            a monthly subscription and just get home made food. I don’t even
+            have to buy groceries and hire a maid. This can make my life easy
           </p>
           <div className="review-name">
             <span>
@@ -63,14 +64,20 @@ function Review() {
             />
           </div>
           <p>
-            It's very logical to share the unused credit. Would love to have and
-            use this feature soon.
+            I am a student and I never lived without my Mom’s cooked food and
+            when I came to college I was excited that I am going to get a
+            variety of food on a daily basis. Well, after a month I realized
+            that the mess food is so boring. It’s bad oil, unhealthy and I can’t
+            choose what I want to eat, there is a schedule they follow and I
+            have to eat that. But with this Zomato service I can choose what I
+            want to eat. I don’t need to eat the same thing every Monday
+            morning. Love the idea!
           </p>
           <div className="review-name">
             <span>
               <strong>Rashi Raj</strong>
             </span>
-            <span>Zomato user, Bangalore</span>
+            <span>Zomato user, Delhi</span>
           </div>
         </div>
       </div>

@@ -21,9 +21,8 @@ function UsePage() {
           <div className="usePage-row-text">
             <h3>Step 1</h3>
             <p>
-              Lorem ipsum is a placeholder text commonly used to demonstrate the
-              visual form of a document or a typeface without relying on
-              meaningful content.
+              First navigate to the tiffin section on the bottom navigator and
+              choose your weekdays.
             </p>
           </div>
         </div>
@@ -34,9 +33,8 @@ function UsePage() {
           <div className="usePage-row-text">
             <h3>Step 2</h3>
             <p>
-              Lorem ipsum is a placeholder text commonly used to demonstrate the
-              visual form of a document or a typeface without relying on
-              meaningful content.
+              Choose how many times in a day you want the meal, and click on pay
+              to move ahead.
             </p>
           </div>
         </div>
@@ -49,9 +47,8 @@ function UsePage() {
           <div className="usePage-row-text">
             <h3>Step 3</h3>
             <p>
-              Lorem ipsum is a placeholder text commonly used to demonstrate the
-              visual form of a document or a typeface without relying on
-              meaningful content.
+              This is a confirmation of your subscription plan. Now let's find
+              something to eat.
             </p>
           </div>
         </div>
@@ -62,9 +59,8 @@ function UsePage() {
           <div className="usePage-row-text">
             <h3>Step 4</h3>
             <p>
-              Lorem ipsum is a placeholder text commonly used to demonstrate the
-              visual form of a document or a typeface without relying on
-              meaningful content.
+              Choose from a wide range of tiffin services available here,
+              delivering happiness to your doorsteps.
             </p>
           </div>
         </div>
@@ -102,13 +98,11 @@ function UsePage() {
         </div>
       </div>
       <div class="question-button">
-        <Button variant="contained" endIcon={<ArrowForwardIcon />}>
-          Rate this idea
-        </Button>
-        <div class="tally">
-          <img src="https://tally.so/images/logo.png" />
-          <span>Made With Tally</span>
-        </div>
+        <a href="https://tally.so/forms/mJvoJm/edit" target="_blank">
+          <Button variant="contained" endIcon={<ArrowForwardIcon />}>
+            Rate this idea
+          </Button>
+        </a>
       </div>
     </div>
   );

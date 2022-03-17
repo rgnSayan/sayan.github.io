@@ -6,6 +6,7 @@ import Review from "./Components/Review/Review";
 import UsePage from "./Components/UsePage/UsePage";
 import WorkPage from "./Components/WorkPage/WorkPage";
 import ReactGA from "react-ga";
+import Accordian from "./Components/Accordian/Accordian";
 
 class App extends Component {
   setGA = () => {
@@ -22,6 +23,7 @@ class App extends Component {
         <WorkPage />
         <UsePage />
         <Review />
+        <Accordian />
         <Footer />
       </div>
     );

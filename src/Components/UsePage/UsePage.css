@@ -59,29 +59,16 @@
   padding-bottom: 20px;
 }
 
-.question-button > button {
+.question-button > a > button {
   background-color: #212121;
   color: #fff;
   font-weight: 600;
+  text-decoration: none;
 }
-.question-button > button:hover {
+.question-button > a > button:hover {
   background-color: #212121;
 }
-.tally > img {
-  height: 15px;
-  width: 15px;
-  padding-right: 5px;
-}
-.tally > span {
-  font-weight: 700;
-  cursor: pointer;
-}
 
-.tally {
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-}
 .banner-container {
   display: flex;
   align-items: center;
